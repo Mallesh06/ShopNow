@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="app.html">ShopNow</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <ul class="menu" id="navMenu">
+      <li>
+        <a href="">Men</a>
+        <div class="dropdown">
+          <a href="T-Shirts.html">T-Shirts</a>
+          <a href="Shirts.html">Shirts</a>
+          <a href="MenJeans.html">Jeans</a>
+          <a href="suits.html">Suits</a>
+        </div>
+      </li>
+      <li>
+        <a href="">Women</a>
+        <div class="dropdown">
+          <a href="Dresses.html">Dresses</a>
+          <a href="top.html">Tops</a>
+          <a href="jeans.html">Jeans</a>
+          <a href="skirts.html">Skirts</a>
+        </div>
+      </li>
+      <li><a href="#">New Arrivals</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Men Suits</h1>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.J0xgxZOKkIBTO3kf0OHMaQAAAA?rs=1&pid=ImgDetMain" alt="Women's Dress">
+      <h3>Women's Top</h3>
+      <p>₹1599 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://i.etsystatic.com/30129981/r/il/08e773/3244492644/il_fullxfull.3244492644_ehz6.jpg" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://i.pinimg.com/originals/09/54/0b/09540b1ec0a03a67bbebb28f1c9c1a74.jpg" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://tailor.com.au/wp-content/uploads/2020/05/brown-designer-suit.jpg" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+  </section>
+  <section class="products">
+    <div class="product">
+      <img src="https://www.outfittrends.com/wp-content/uploads/2014/08/gentle-black-suite.jpg" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://i.pinimg.com/originals/f0/21/2b/f0212b49a3499f56e81c1e9aab6e6264.jpg" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.BRSL2UZtxCoxkifCkw1mwAHaLH?rs=1&pid=ImgDetMain" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div><div class="product">
+      <img src="https://th.bing.com/th/id/OIP.XjkZtkk5fRuQH3BBwutPYQHaLH?rs=1&pid=ImgDetMain" alt="Women's Top">
+      <h3>Women's Top</h3>
+      <p>₹4000 /- </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 FashionStore. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="app.html">ShopNow</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <ul class="menu" id="navMenu">
+      <li>
+        <a href="#">Men</a>
+        <div class="dropdown">
+          <a href="T-Shirts.html">T-Shirts</a>
+          <a href="Shirts.html">Shirts</a>
+          <a href="MenJeans.html">Jeans</a>
+          <a href="suits.html">Suits</a>
+        </div>
+      </li>
+      <li>
+        <a href="#">Women</a>
+        <div class="dropdown">
+          <a href="Dresses.html">Dresses</a>
+          <a href="top.html">Tops</a>
+          <a href="jeans.html">Jeans</a>
+          <a href="skirts.html">Skirts</a>
+        </div>
+      </li>
+      <li><a href="#">New Arrivals</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Mens shirts</h1>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://www.fc-moto.de/WebRoot/FCMotoDB/Shops/10207048/6167/E30E/3212/55B8/18C8/AC1E/1410/DF0C/KK4210631005-622-1_ml.jpg" alt="Men's Jacket">
+      <h3>Men's Jacket</h3>
+      <p>₹1200 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.XsXBGmGOtBnPmy_9ED4MWgHaJO?w=208&h=258&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.c2dN5VNqJaNmQCT_zgPDdwHaLY?w=201&h=309&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.AiAOsO8zs07skwmx8ZKdCQHaLQ?w=202&h=308&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+  </section>
+  <section class="products">
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.4-ULyI0z6N7h_4p1yBoumAHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.wuomprgTNp6vgHIkfPq-yAHaIp?w=208&h=243&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.8ZMIfFVhuMuLGqmOEfdLVwHaJ4?w=208&h=278&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Men's T-Shirt">
+      <h3>Men's T-Shirt</h3>
+      <p>₹999 /- </p>
+    </div>
+
+    
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 FashionStore. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

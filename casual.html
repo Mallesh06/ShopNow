@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .product-page {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .product-details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .product-details img {
+            max-width: 200px;
+            height: auto;
+        }
+        .payment-form {
+            margin-top: 20px;
+        }
+        .payment-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .payment-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .payment-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .payment-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-page">
+        <h1>Casual Tshirt</h1>
+        <div class="product-details">
+            <div class="product-info">
+                <h2></h2>
+                <p>Price: ₹950</p>
+                <p>Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men</p>
+            </div>
+            <div class="product-image">
+                <img src="https://th.bing.com/th/id/OIP.IjSED0Pcgvw0AF1ng5DIpwAAAA?rs=1&pid=ImgDetMain" alt="Product Image">
+            </div>
+        </div>
+
+        <form class="payment-form">
+            <h3>Payment Details</h3>
+            <label for="card-name">Name on Card</label>
+            <input type="text" id="card-name" name="card-name" placeholder="John Doe" required>
+
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+
+            <label for="expiry-date">Expiry Date</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
