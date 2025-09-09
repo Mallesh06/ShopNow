@@ -2,4 +2,4 @@
 <br>
 Author Mallesh
 <br>
-![1]<"C:\Users\HP\ShopNow\Screenshot 2025-09-08 125822.png">
+Do you want buy some clothes.... click--> https://mallesh06.github.io/ShopNow/
